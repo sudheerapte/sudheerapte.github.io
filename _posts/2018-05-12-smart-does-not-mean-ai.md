@@ -5,20 +5,27 @@ title: Smart does not Mean AI
 
 # We want smart machines. Does that mean "AI" machines?
 
-_This post is in progress. The first half is done. Text needs citations
-and pics._
+_This series of articles tries to define what makes machines smart.
+We use the example of "Sawyer", a smart industrial manufacturing robot
+from Rethink Robotics, because I am most familiar with it, but the
+principles are universal._
 
-There's a lot of hype about the term "AI".
+Thousands of clever researchers have been burning the midnight oil
+toward the goal of human-like intelligence for over sixty years
+now. Along the way, these researchers have been able to solve many
+practical problems that require smarts. They have created algorithms
+like "tree search" and "back propagation" that are useful in many
+areas of computer science as well as in diverse practical applications.
+Every few years, a breakthrough reaches the public and captures the
+imagination, and a lot of hype about the term "AI" takes hold, fueled
+by the business press. The hype raises hopes and fears about the
+technology. After a few months, it becomes clear that the hopes and
+fears were overblown, leading to disillusionment and loss of interest.
+See [Rodney Brooks's blog
+posts](https://rodneybrooks.com/forai-the-origins-of-artificial-intelligence/),
+in which he tries to put the thing in context.
 
-Researchers have been burning the midnight oil toward the goal of
-human-like intelligence for at least sixty years now. See [Rodney
-Brooks's blog
-post](https://rodneybrooks.com/forai-the-origins-of-artificial-intelligence/)
-on this topic. Along the way, these researchers have been able to
-solve many practical problems that require smarts, and to create
-algorithms like "tree search" and "back propagation", that are useful
-in many areas of computer science. But, in the real world, what makes
-a "smart" machine?
+But, in the real world, what makes a "smart" machine?
 
 Smart is what smart does, and it depends on the job.
 
@@ -89,11 +96,14 @@ The above points are addressed by so-called "collaborative robots" or
 
 ![Sawyer pic](https://spectrum.ieee.org/image/MjYxMjM2MQ.jpeg)
 
-Besides the above three sources of friction, there is a large
+Besides the above three sources of friction, there is another large
 organizational barrier: if the robot is not safe around people, then
 the people have to be cleared out of the area and safety cages need to
 be built around the robots. This, too, has been addressed by these
-cobots, as these robots are designed to be used around humans.
+cobots, as these robots are designed to be used around humans. If you
+try to hold Sawyer's arm while it is performing a task, it will stop
+immediately. And, as you can see above, it looks cute and harmless,
+too.
 
 
 
