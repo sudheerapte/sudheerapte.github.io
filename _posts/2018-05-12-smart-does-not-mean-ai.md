@@ -101,9 +101,17 @@ organizational barrier: if the robot is not safe around people, then
 the people have to be cleared out of the area and safety cages need to
 be built around the robots. This, too, has been addressed by these
 cobots, as these robots are designed to be used around humans. If you
-try to hold Sawyer's arm while it is performing a task, it will stop
-immediately. And, as you can see above, it looks cute and harmless,
-too.
+try to hold Sawyer's arm while it is performing a task, it will sense
+the force and stop its task immediately. And, as you can see above, it
+looks cute and harmless, too.
 
+## It's About Product Design
 
+If you read through these descriptions, you can see that the features
+above that make Sawyer a "smart" robot have almost nothing to do with
+"AI", and everything to do with a holistic product design that keeps
+the use cases front and center.
 
+It is not a surprise that a well-designed product sells.  What might
+be more controversial is that what users call "smart" does not align
+with what the latest buzz-words call "artificial intelligence".
