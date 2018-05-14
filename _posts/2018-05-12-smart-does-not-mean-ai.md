@@ -15,17 +15,21 @@ toward the goal of human-like intelligence for over sixty years
 now. Along the way, these researchers have been able to solve many
 practical problems that require smarts. They have created algorithms
 like "tree search" and "back propagation" that are useful in many
-areas of computer science as well as in diverse practical applications.
-Every few years, a breakthrough reaches the public and captures the
-imagination, and a lot of hype about the term "AI" takes hold, fueled
-by the business press. The hype raises hopes and fears about the
-technology. After a few months, it becomes clear that the hopes and
-fears were overblown, leading to disillusionment and loss of interest.
-See [Rodney Brooks's blog
-posts](https://rodneybrooks.com/forai-the-origins-of-artificial-intelligence/),
-in which he tries to put the thing in context.
+areas of computer science as well as in diverse practical
+applications.  Every few years, a breakthrough reaches the public and
+captures the imagination, and a lot of hype about the term "AI" takes
+hold, fueled by the business press. The hype raises hopes and fears
+about the technology. After a few months, it becomes clear that the
+hopes and fears were overblown, leading to disillusionment and loss of
+interest. "Artificial Intelligence" is suffering through one of these
+cycles right now.
 
-But, in the real world, what makes a "smart" machine?
+We will return later in this post to the topic of what "artificial
+intelligence" means in the popular press today.  See [Rodney Brooks's
+blog
+posts](https://rodneybrooks.com/forai-the-origins-of-artificial-intelligence/),
+in which he tries to put the thing in context.  But, in the real
+world, what makes a "smart" machine?
 
 Smart is what smart does, and it depends on the job.
 
@@ -114,4 +118,11 @@ the use cases front and center.
 
 It is not a surprise that a well-designed product sells.  What might
 be more controversial is that what users call "smart" does not align
-with what the latest buzz-words call "artificial intelligence".
+with what the latest buzz-words call "artificial intelligence": today,
+this essentially means machine learning algorithms like the ones used
+to build game-playing, or speech-recognizing, or pattern-matching
+systems to solve particular problems. If you really want to learn what
+machine learning means, please read the post ["machine learning
+explained"](https://rodneybrooks.com/forai-machine-learning-explained/)
+by, yes, Rodney Brooks.
+
