@@ -1,0 +1,29 @@
+---
+layout: post
+title: Software on Embedded Systems
+---
+
+
+## Note - Real-Time Versus Non-Real-Time
+
+A real-time program is one that must complete its work within a strict
+time limit. A typical example: a program that reads sensors and
+sends commands to a motor so as to control its motion precisely. The
+control algorithm requires quick and precisely timed commands, so the
+program must not miss any commands waiting for reading data from
+memory, or waiting for the next clock-driven interrupt.
+
+The most reliable way to write real-time programs is to use a
+microcontroller's instruction set. The microcontroller uses hardware
+timers and its circuit-imposed clock speed to run such a program. The
+instruction set precisely specifies the time it takes to run each
+instruction. When properly designed, such a program can guarantee
+correct behavior as long as the external sensors and motors are
+functioning correctly.
+
+
+A real-time operating system is software infrastructure, specially
+designed for the hardware, that can run real-time programs. Such an
+operating system can guarantee that the programs will be woken up at
+the right time to accomplish their task. The program developer must in
+turn adhere to strict rules imposed by the operating system.
