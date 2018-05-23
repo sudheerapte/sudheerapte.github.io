@@ -209,11 +209,11 @@ camera. Its distinctive features are its liquid-crystal display (LCD)
 panel that shows a user interface, and accompanying dials and knobs
 through which the user can browse and select options.
 
-The same technology that allows chip makers to put microcomputers for
-embedded use on a single chip, also allows them to create powerful
-microprocessors on a single chip for use as a CPU in computers.  It is
-customary to attach the rest of the circuitry making up the computer
-to a motherboard.
+The same technology that allows chip makers to put microcontrollers
+for embedded use on a single chip, also allows them to create powerful
+microprocessors on a single chip for use as a CPU in
+computers. Computer makers attach these single-chip CPUs to a
+motherboard, where the rest of the circuitry for a computer resides.
 
 ### System on a Chip
 
