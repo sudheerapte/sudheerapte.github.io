@@ -177,7 +177,7 @@ circuits with microprocessors, so that their logic was expressed in
 software. Software could be made more powerful, could be upgraded in
 shipped systems, and even fixed or changed in the field.
 
-### Microcontrollers and SoCs
+### Microcontrollers and Standalone Processors
 
 Almost immediately after microprocessors were invented, manufacturers
 produced a chip containing a microprocessor, some memory, and other
@@ -209,15 +209,27 @@ camera. Its distinctive features are its liquid-crystal display (LCD)
 panel that shows a user interface, and accompanying dials and knobs
 through which the user can browse and select options.
 
-The inevitable result of Moore's Law, more and more powerful computers
-could be built on a single chip, including not just memory and I/O,
-but also other advanced components needed for a complete computer:
-multiple processors, graphics processing units (GPU), Wi-Fi module,
-bluetooth radio, standard USB, Ethernet, power management circuits,
-and so forth.
+The same technology that allows chip makers to put microcomputers for
+embedded use on a single chip, also allows them to create powerful
+microprocessors on a single chip for use as a CPU in computers.  It is
+customary to attach the rest of the circuitry making up the computer
+to a motherboard.
 
-Called a "System on a Chip" (SoC), these are complete computers with
+### System on a Chip
+
+With improvements in materials and manufacturing, over the decades
+more and more powerful microcontrollers could be built on a single
+chip.  The latest chips include not just memory and I/O, but also
+other advanced components needed for a complete computer: multiple
+processors, graphics processing units (GPU), Wi-Fi module, bluetooth
+radio, standard USB, Ethernet, power management circuits, and so
+forth.
+
+Called a "System on a Chip" (SoC), this is a complete computer with
 greatly reduced power consumption and size, that can be crammed into a
-mobile phone with plenty of room for a battery. The ones used in
-mobile phones, of course, also include an accelerometer, a GPS, and a
-cellular modem.
+mobile phone with plenty of room for a battery, camera, and a
+touch-sensitive display panel with millions of pixels.  An SoC
+essentially replaces the entire motherboard of a computer including
+the CPU. The SoC used in a typical smart phone, of course, also
+includes an accelerometer, a GPS, and a cellular modem, which are
+typically not present in a computer.
