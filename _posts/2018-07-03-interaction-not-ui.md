@@ -3,11 +3,15 @@ layout: post
 title: Interaction Design, not UI Design
 ---
 
+# Interaction Design, not UI Design
+
 Interaction Design is about *behavior*: how the system or application
-interacts with the user. Usually people think of a typical graphical
-windowed interface, such as you might see on a personal computer or a
-portable device, as being the thing being designed. Almost the entire
-focus of interaction design tends to be on this user interface.
+interacts with the user.
+
+Usually people think of a typical graphical windowed interface, such
+as you might see on a personal computer or a portable device, as being
+the thing being designed. Almost the entire focus of interaction
+design tends to be on this user interface.
 
 But that is too limited a view, particularly when considering embedded
 systems.
@@ -19,19 +23,18 @@ common are extremely limited LCD or LED panels that can show (for
 example) only a few text characters and/or a few predefined elements
 that can be on or off.
 
-But beyond visual output, two other senses are also usable:
+But beyond vision, two other senses are also usable for output to the
+human user:
 
-* Sounds: beeps, chirps, alarms, and more complex synthesized output
+* *Sound:* beeps, chirps, alarms, and more complex synthesized output
   including musical notes and spoken words.
   
-* Touch, through vibration of an element that is held in the hand or
-  is otherwise next to the user's skin.
-
-* More complex haptic feedback through special-purpose devices worn on
-  the hand.
+* *Touch*, Vibration of an element that is held in the hand or is
+  otherwise next to the user's skin, and more complex haptic feedback
+  through special-purpose devices worn on the hand.
 
 Similarly, there is a wide variety of methods by which the user can
-provide inputs to the application through sensors. Mobile phones
+provide _inputs_ to the application through sensors. Mobile phones
 already contain gyroscopes and accelerometers; industrial equipment
 can reuse a wide variety of sensors that were originally developed for
 sensing phenomena in the real world. For example, a motion sensor can
